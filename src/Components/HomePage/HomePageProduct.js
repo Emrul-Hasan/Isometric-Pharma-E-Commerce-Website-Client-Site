@@ -16,7 +16,7 @@ const HomePageProduct = () => {
             .then(getData => setFeatureProduct(getData[0]));
     }, []);
     return (
-        <div className="container my-5">
+        <div className="container my-5 ">
             <h3 className="my-5 fw-bold text-uppercase text-center">Latest Products</h3>
             <div className="row">
                 {

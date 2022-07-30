@@ -54,9 +54,9 @@ const CustomerDashboard = () => {
         <div className="row">
             <CustomerSidebar></CustomerSidebar>
             <div className="col-9">
-                <div className="row" style={{ height: "90vh" }}>
+                <div className="row" style={{ height: "95vh",background: "linear-gradient(45deg,  #F5AAAA,#A5F6CE)" }}>
                     <div className="col-md-6">
-                        <div className="d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
+                        <div className="d-flex align-items-center justify-content-center" style={{ height: "90vh"}}>
                             <div className="p-5"
                                 style={{ borderRadius: "10px", background: "#EFE3D0", height: "400px", width: "430px", boxShadow: "3px 3px 10px gray" }}>
                                 <h4 className="mb-5 fw-bold text-danger text-uppercase">Profile Picture</h4>

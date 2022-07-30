@@ -52,7 +52,7 @@ const CustomerServiceReview = () => {
                     <div>
                         <div className="row">
                             <CustomerSidebar></CustomerSidebar>
-                            <div className="col-9">
+                            <div className="col-9" style={{background: "linear-gradient(45deg,  #F5AAAA,#A5F6CE)"}}>
                                 <h3 className="mt-5 text-uppercase fw-bold">My Service Reviews</h3>
                                 {
                                     loading ?
