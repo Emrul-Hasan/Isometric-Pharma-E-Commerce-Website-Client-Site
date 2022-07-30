@@ -61,7 +61,7 @@ const AddProduct = () => {
             }
         });
     }
-    const sellerProducts = ()=>{
+    const sellerProducts = () => {
         let getSellerId = localStorage.getItem('id');
         history.push(`/sellerProducts/${getSellerId}`);
     }
@@ -75,14 +75,14 @@ const AddProduct = () => {
 
                         <input type="text" onChange={handelChange} placeholder='Name' name="name" className='w-100 my-2' />
                         <span style={{ color: "red", fontSize: "12px", fontWeight: "bold" }}>{product.errors.name}</span>
-                        
+
                         <input type="text" onChange={handelChange} placeholder='Quantity' name="quantity" className='w-100 my-2' />
                         <span style={{ color: "red", fontSize: "12px", fontWeight: "bold" }}>{product.errors.quantity}</span>
 
                         <select onChange={handelChange} required name="category" className='my-2 w-100'>
-                        <option defaultValue="">Category</option>
+                            <option defaultValue="">Category</option>
                             <option defaultValue="Phone">Phone</option>
-                            <option defaultValue="Laptop">Laptop</option>
+                            <option defaultValue="Supplement">Supplement</option>
                             <option defaultValue="Camera">Camera</option>
                             <option defaultValue="Television">Television</option>
                         </select>
@@ -90,13 +90,13 @@ const AddProduct = () => {
 
                         <input type="text" onChange={handelChange} placeholder='Price' name="price" className='w-100 my-2' />
                         <span style={{ color: "red", fontSize: "12px", fontWeight: "bold" }}>{product.errors.price}</span>
-                        
+
                         <input type="text" onChange={handelChange} placeholder='Product Details' name="productDetails" className='w-100 my-2' />
                         <span style={{ color: "red", fontSize: "12px", fontWeight: "bold" }}>{product.errors.productDetails}</span>
 
                         <input type="file" required onChange={handleImageUpload} className="w-100 my-2" />
 
-                         <br />
+                        <br />
                         <button type="submit" className='w-25 btn btn-sm btn-success mt-4' >Add</button>
                         <button onClick={sellerProducts} style={{ textAlign: "left" }} className="btn btn-danger  mt-4 btn-sm px-3 mx-5">Back</button>
                     </form>

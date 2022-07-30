@@ -64,7 +64,7 @@ import UpdateServiceProviderProfile from './Components/ServiceProvider/UpdateSer
 import Phone from './Components/ProductCategory/Phone';
 import Camera from './Components/ProductCategory/Camera';
 import Television from './Components/ProductCategory/Television';
-import Laptop from './Components/ProductCategory/Laptop';
+import Supplement from './Components/ProductCategory/Supplement';
 
 
 
@@ -90,7 +90,7 @@ const App = () => {
           <Route path="/phone"><Phone></Phone> </Route>
           <Route path="/camera"><Camera></Camera> </Route>
           <Route path="/television"><Television></Television> </Route>
-          <Route path="/laptop"><Laptop></Laptop> </Route>
+          <Route path="/supplement"><Supplement></Supplement> </Route>
 
           <Route path="/login">
             {
