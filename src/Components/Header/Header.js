@@ -67,7 +67,7 @@ const Header = () => {
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>
-                                <Dropdown.Item href="/television"><span className='fw-bold text-uppercase text-danger'>Television</span></Dropdown.Item>
+                                <Dropdown.Item href="/medicine"><span className='fw-bold text-uppercase text-danger'>Medicine</span></Dropdown.Item>
                                 <Dropdown.Item href="/camera"><span className='fw-bold text-uppercase text-danger'>Camera</span></Dropdown.Item>
                                 <Dropdown.Item href="/supplement"><span className='fw-bold text-uppercase text-danger'>supplement</span></Dropdown.Item>
                                 <Dropdown.Item href="/phone"><span className='fw-bold text-uppercase text-danger'>Mobile</span></Dropdown.Item>

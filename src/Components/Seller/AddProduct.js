@@ -84,7 +84,7 @@ const AddProduct = () => {
                             <option defaultValue="Phone">Phone</option>
                             <option defaultValue="Supplement">Supplement</option>
                             <option defaultValue="Camera">Camera</option>
-                            <option defaultValue="Television">Television</option>
+                            <option defaultValue="Medicine">Medicine</option>
                         </select>
                         <span style={{ color: "red", fontSize: "12px", fontWeight: "bold" }}>{product.errors.category}</span>
 
