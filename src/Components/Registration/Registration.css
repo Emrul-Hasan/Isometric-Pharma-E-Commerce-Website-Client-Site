@@ -1,0 +1,102 @@
+.backgroundArea1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/registration/registration-bg3.jpg');
+    /* background-image: url('../../images/registration/registration-bg3.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 0.7; */
+}
+.contentArea {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-area {
+    height: 85vh;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.registration-banner .img-area img {
+    width: 100%;
+    height: 85vh;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.registration-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-content img {
+    height: 30px;
+    width: 30px;
+}
+input,select {
+    padding: 3px 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+    width: 200px;
+}
+input:hover{
+    border: 2px solid blue; 
+}
+input:focus {
+    outline: none !important;
+    border: 2px solid red;
+    /* box-shadow: 2px 2px 2px 2px gray; */
+    background-color: rgba(255, 255, 255);
+    color: red;
+}
+.registration-button {
+    /* background-image: linear-gradient(90deg, aqua, blue); */
+    border-radius: 20px;
+    padding: 5px 30px;
+    color: black;
+    transition: 0.5s;
+    border: 2px solid blue;
+}
+
+.registration-button:hover {
+    background-image: linear-gradient(45deg, blue, aqua);
+    color: white;
+    border: 2px solid white;
+}
+.login-link {
+    color: rgb(27, 24, 42);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.login-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+    background-color: black;
+    padding: 1px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
