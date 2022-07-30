@@ -61,7 +61,7 @@ import UpdateAdminProfile from './Components/Admin/UpdateAdminProfile';
 import UpdateCustomerProfile from './Components/Customer/UpdateCustomerProfile';
 import UpdateSellerProfile from './Components/Seller/UpdateSellerProfile';
 import UpdateServiceProviderProfile from './Components/ServiceProvider/UpdateServiceProviderProfile';
-import Phone from './Components/ProductCategory/Phone';
+import Herbals from './Components/ProductCategory/Herbals';
 import Personal from './Components/ProductCategory/Personal';
 import Medicine from './Components/ProductCategory/Medicine';
 import Supplement from './Components/ProductCategory/Supplement';
@@ -87,7 +87,7 @@ const App = () => {
           <Route path="/contact"><Contact></Contact></Route>
           <Route path="/products"><Products></Products></Route>
           <Route path="/dashboard"><Dashboard></Dashboard></Route>
-          <Route path="/phone"><Phone></Phone> </Route>
+          <Route path="/herbals"><Herbals></Herbals> </Route>
           <Route path="/personal"><Personal></Personal> </Route>
           <Route path="/medicine"><Medicine></Medicine> </Route>
           <Route path="/supplement"><Supplement></Supplement> </Route>

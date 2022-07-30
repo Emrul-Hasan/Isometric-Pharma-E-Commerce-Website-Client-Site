@@ -69,8 +69,8 @@ const Header = () => {
                             <Dropdown.Menu>
                                 <Dropdown.Item href="/medicine"><span className='fw-bold text-uppercase text-danger'>Medicine</span></Dropdown.Item>
                                 <Dropdown.Item href="/personal"><span className='fw-bold text-uppercase text-danger'>Personal</span></Dropdown.Item>
-                                <Dropdown.Item href="/supplement"><span className='fw-bold text-uppercase text-danger'>supplement</span></Dropdown.Item>
-                                <Dropdown.Item href="/phone"><span className='fw-bold text-uppercase text-danger'>Mobile</span></Dropdown.Item>
+                                <Dropdown.Item href="/supplement"><span className='fw-bold text-uppercase text-danger'>Supplement</span></Dropdown.Item>
+                                <Dropdown.Item href="/herbals"><span className='fw-bold text-uppercase text-danger'>Herbal& homeopathic</span></Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                         <Link className="nav-link mx-2 hover text-white fw-bold" to="/about">About</Link>

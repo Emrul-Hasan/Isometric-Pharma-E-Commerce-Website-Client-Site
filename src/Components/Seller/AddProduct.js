@@ -81,7 +81,7 @@ const AddProduct = () => {
 
                         <select onChange={handelChange} required name="category" className='my-2 w-100'>
                             <option defaultValue="">Category</option>
-                            <option defaultValue="Phone">Phone</option>
+                            <option defaultValue="Herbals">Herbals</option>
                             <option defaultValue="Supplement">Supplement</option>
                             <option defaultValue="Personal">Personal</option>
                             <option defaultValue="Medicine">Medicine</option>

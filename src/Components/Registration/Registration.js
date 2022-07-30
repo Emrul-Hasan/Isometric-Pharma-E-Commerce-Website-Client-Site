@@ -140,7 +140,7 @@ const Registration = () => {
                                                         }}>{registration.errors.email}</span>
                                                     </div>
 
-                                                    {/* Phone */}
+                                                    {/* Herbals */}
                                                     <div className="mb-4">
                                                         <div className="d-flex justify-content-center align-items-center">
                                                             <img className="mr-2" src="images/registration/phone.png" alt="" />
