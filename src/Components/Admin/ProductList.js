@@ -55,7 +55,7 @@ const ProductList = () => {
                                 :
                                 <SellerSidebar></SellerSidebar>
                             }
-                            <div className="col-9">
+                            <div className="col-9" style={{background: "linear-gradient(45deg,#F5AAAA,#6EDBFC)" }}>
                                 <h3 className="mt-5 text-uppercase fw-bold">Product List</h3>
                                 {
                                     loading ?

@@ -39,7 +39,7 @@ const OrderList = () => {
                     <div>
                         <div className="row">
                             <AdminSidebar></AdminSidebar>
-                            <div className="col-9">
+                            <div className="col-9" style={{background: "linear-gradient(45deg,#F5AAAA,#6EDBFC)" }}>
                                 <h3 className="mt-5 text-uppercase fw-bold">All Orders</h3>
                                 {
                                     loading ?
