@@ -56,7 +56,8 @@ const Header = () => {
         <div style={{ marginBottom: "57px" }}>
             <nav className="navbar navbar-expand-lg  navbar-light fixed-top" style={{ background: "darkblue" }}>
                 <div className="container-fluid container">
-                    <h3 className="text-white">ecommerce.com</h3>
+                    <img height={"20px"} src="../../images/store.png" alt="" />
+                    <h3 className="text-white px-2">Isometric Shop</h3>
                     <div className="navbar-nav font-weight-bold ms-auto">
                         <Link className="nav-link mx-2 hover text-white fw-bold" to="/">Home</Link>
                         <Link className="nav-link mx-2 hover text-white fw-bold" to="/products">Products</Link>

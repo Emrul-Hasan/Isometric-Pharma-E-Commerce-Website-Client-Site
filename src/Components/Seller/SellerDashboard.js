@@ -54,11 +54,11 @@ const SellerDashboard = () => {
             <div className="row">
                 <SellerSidebar></SellerSidebar>
                 <div className="col-9">
-                    <div className="row" style={{ height: "90vh" }}>
+                    <div className="row" style={{ height: "95vh",background: "linear-gradient(45deg,  #FCEDB2,#DEFCFA" }}>
                         <div className="col-md-6">
                             <div className="d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
                                 <div className="p-5"
-                                    style={{ borderRadius: "10px", background: "#EFE3D0", height: "400px", width: "430px", boxShadow: "3px 3px 10px gray" }}>
+                                    style={{ borderRadius: "10px", background: "#ECFDD9", height: "400px", width: "430px", boxShadow: "3px 3px 10px gray" }}>
                                     <h4 className="mb-5 fw-bold text-danger text-uppercase">Profile Picture</h4>
                                     <img src={user.image} alt=''
                                         width="130px" height="160px" />
@@ -74,7 +74,7 @@ const SellerDashboard = () => {
                         <div className="col-md-6">
                             <div className="d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
                                 <div className="p-5"
-                                    style={{ borderRadius: "10px", background: "#EFE3D0", height: "400px", width: "430px", boxShadow: "3px 3px 10px gray" }}>
+                                    style={{ borderRadius: "10px", background: "#ECFDD9", height: "400px", width: "430px", boxShadow: "3px 3px 10px gray" }}>
                                     <h4 className="mb-5 fw-bold text-danger text-uppercase">Seller Information</h4>
                                     <div className="h5 fw-bold my-3 form-control">
                                         Name : {user.name}
