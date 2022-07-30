@@ -62,7 +62,7 @@ import UpdateCustomerProfile from './Components/Customer/UpdateCustomerProfile';
 import UpdateSellerProfile from './Components/Seller/UpdateSellerProfile';
 import UpdateServiceProviderProfile from './Components/ServiceProvider/UpdateServiceProviderProfile';
 import Phone from './Components/ProductCategory/Phone';
-import Camera from './Components/ProductCategory/Camera';
+import Personal from './Components/ProductCategory/Personal';
 import Medicine from './Components/ProductCategory/Medicine';
 import Supplement from './Components/ProductCategory/Supplement';
 
@@ -88,7 +88,7 @@ const App = () => {
           <Route path="/products"><Products></Products></Route>
           <Route path="/dashboard"><Dashboard></Dashboard></Route>
           <Route path="/phone"><Phone></Phone> </Route>
-          <Route path="/camera"><Camera></Camera> </Route>
+          <Route path="/personal"><Personal></Personal> </Route>
           <Route path="/medicine"><Medicine></Medicine> </Route>
           <Route path="/supplement"><Supplement></Supplement> </Route>
 

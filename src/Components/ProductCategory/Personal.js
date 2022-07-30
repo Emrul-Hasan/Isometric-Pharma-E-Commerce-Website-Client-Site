@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
-const Camera = () => {
+const Personal = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
         fetch('http://127.0.0.1:8000/api/products')
@@ -13,11 +13,11 @@ const Camera = () => {
         <div>
             <Header></Header>
             <div className='my-5 container'>
-                <h3 className="my-5 pt-5 fw-bold text-uppercase text-center">Camera Category</h3>
+                <h3 className="my-5 pt-5 fw-bold text-uppercase text-center">Personal Category</h3>
                 <div className="row">
                     {
                         product.map(products =>
-                            products.category === 'Camera' ?
+                            products.category === 'Personal' ?
                                 <div className="col-3" style={{ margin: "0 auto" }}>
                                     <div className="card-group">
                                         <div className="card">
@@ -53,4 +53,4 @@ const Camera = () => {
     );
 };
 
-export default Camera;
+export default Personal;
