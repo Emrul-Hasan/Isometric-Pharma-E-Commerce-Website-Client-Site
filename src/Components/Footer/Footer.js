@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <div>
-                <div className="footer-area pt-5" style={{ backgroundColor:"#322424" }}>
+                <div className="footer-area pt-5" style={{ backgroundColor: "#322424" }}>
                     <div className="container text-white">
                         <div className="row">
                             <div className="col-sm-3">
@@ -41,7 +41,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="" style={{ marginLeft:"60px" }}>
+                                <div className="" style={{ marginLeft: "60px" }}>
                                     <div>
                                         <h4 className="mb-4 text-white">Address</h4>
                                     </div>
@@ -59,29 +59,38 @@ const Footer = () => {
                                     <div className="btn btn-danger btn-sm">
                                         Phone: +8801782387758
                                     </div>
-                                    
+
                                 </div>
-                                
+
                             </div>
-                            <h6 style={{textAlign:"center"}}>Payment with</h6>
-                           <div style={{ marginLeft:"120px"}}>
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           <img height={"30px"}  src="../../images/registration/R1.jpg" alt="img" />
-                           </div>
-                            
+                            <h6 style={{ textAlign: "center" }}>Payment with</h6>
+                            <div style={{ marginLeft: "320px" }}>
+
+
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R1.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R2.jpg" alt="img" />
+                                <img style={{ margin: "5px" }}  height={"30px"} src="../../images/footerLogo/R3.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R4.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R5.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R6.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R7.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R8.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R9.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R10.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R11.jpg" alt="img" />
+                                <img style={{ margin: "5px" }} height={"30px"} src="../../images/footerLogo/R12.jpg" alt="img" />
+
+
+                            </div>
+
                         </div>
                         <p className="text-center py-4 fw-bold"><small className="text-white">Copyright 2022 || All Rights Reserved by ISO Pharma Team</small></p>
                     </div>
-                   
+
                 </div>
             </div>
 
-           
+
 
 
         </div>
