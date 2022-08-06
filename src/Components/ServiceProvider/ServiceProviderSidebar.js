@@ -47,7 +47,7 @@ const ServiceProviderSidebar = () => {
     
 
     return (
-        <div className="col-3" style={{ minHeight: "95vh", background: "#160040" }}>
+        <div className="col-3" style={{ minHeight: "95vh", background: "#433744" }}>
         <div className="px-2 py-5">
 
             <div className="text-center">
