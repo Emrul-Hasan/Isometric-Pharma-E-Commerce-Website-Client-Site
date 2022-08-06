@@ -54,7 +54,7 @@ const ServiceProviderMakeDelivery = () => {
         });
     }
     return (
-        <div className='d-flex justify-content-center align-items-center' style={{ height: "100vh" }}>
+        <div className='d-flex justify-content-center align-items-center' style={{ height: "100vh",background: "linear-gradient(45deg,#D0FFDC,#D0E1FF)"}}>
             <div>
 
                 <div style={{ width: "400px", background: "gray", padding: "30px", borderRadius: "10px" }}>

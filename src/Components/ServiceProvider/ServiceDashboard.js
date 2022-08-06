@@ -47,13 +47,13 @@ const ServiceDashboard = () => {
                 console.log(err);
             });
     }, [id]);
-    return (
+    return (           
         <div>
             <Header />
             <div className="row">
                 <ServiceProviderSidebar></ServiceProviderSidebar>
                 <div className="col-9">
-                    <div className="row" style={{ height: "90vh" }}>
+                    <div className="row" style={{ height: "90vh",background: "linear-gradient(45deg,#D0FFDC,#D0E1FF)" }}>
                         <div className="col-md-6">
                             <div className="d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
                                 <div className="p-5"

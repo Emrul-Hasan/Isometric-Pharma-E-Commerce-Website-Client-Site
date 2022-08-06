@@ -10,7 +10,7 @@ const UpdateServiceProviderProfile = () => {
             .then(data => setUser(data))
     }, [id]);
     return (
-        <div className='d-flex justify-content-center align-items-center' style={{ height: "100vh" }}>
+        <div className='d-flex justify-content-center align-items-center' style={{ height: "100vh" ,background: "linear-gradient(45deg,#F6EBEF,#FFEEFE)"}}>
             <div>
                 <div style={{ width: "400px", background: "gray", padding: "30px", borderRadius: "10px" }}>
                     <form action="http://127.0.0.1:8000/api/updateServiceProviderProfile" method='post'>

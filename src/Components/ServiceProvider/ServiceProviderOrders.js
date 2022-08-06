@@ -44,7 +44,7 @@ const ServiceProviderOrders = () => {
                     <div>
                         <div className="row">
                             <ServiceProviderSidebar></ServiceProviderSidebar>
-                            <div className="col-9">
+                            <div className="col-9" style={{background: "linear-gradient(45deg,#D0FFDC,#D0E1FF)"}}>
                                 <h3 className="mt-5 text-uppercase fw-bold">All Orders</h3>
                                 {
                                     loading ?
