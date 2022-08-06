@@ -29,7 +29,7 @@ const ProductList = () => {
         })
     }, []);
     // delete product
-    
+
     const deleteProduct = async (event, id) => {
         const response = await axios.delete(`/api/deleteProduct/${id}`);
         if (response.data.status === 'success') {
@@ -55,7 +55,7 @@ const ProductList = () => {
                                 :
                                 <SellerSidebar></SellerSidebar>
                             }
-                            <div className="col-9" style={{background: "linear-gradient(45deg,#F5AAAA,#6EDBFC)" }}>
+                            <div className="col-9" style={{ background: "linear-gradient(45deg,#F5AAAA,#6EDBFC)" }}>
                                 <h3 className="mt-5 text-uppercase fw-bold">Product List</h3>
                                 {
                                     loading ?

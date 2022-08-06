@@ -67,6 +67,9 @@ import Medicine from './Components/ProductCategory/Medicine';
 import Supplement from './Components/ProductCategory/Supplement';
 
 
+import TestList from './Components/Admin/TestList'
+
+
 
 // Authorization
 // var token = null;
@@ -110,7 +113,9 @@ const App = () => {
           {/* For Admin start*/}
           <Route path="/updateAdminProfile"><UpdateAdminProfile></UpdateAdminProfile> </Route>
           <Route path="/orderList"><OrderList></OrderList></Route>
+          <Route path="/abcde"><TestList></TestList></Route>
           <Route path="/productList"><ProductList></ProductList></Route>
+          
 
           {/* seller  operation for admin*/}
           <Route path="/sellerList"><SellerList></SellerList></Route>

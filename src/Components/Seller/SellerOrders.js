@@ -112,6 +112,7 @@ const SellerOrders = () => {
                                                                    }
                                                                     <td >
                                                                         <button className=" btn btn-sm btn-primary" onClick={() => update(order.id)}>Update</button>
+                                                                        <a  className='btn btn-sm btn-success mx-1' href="http://127.0.0.1:8000/send-email">Send Invoice</a>
                                                                         <button className=" btn btn-sm btn-danger mx-1" onClick={(event) => deleteOrder(event, order.id)}>Delete</button>
                                                                     </td>
                                                                 </tr>
