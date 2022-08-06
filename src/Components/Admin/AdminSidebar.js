@@ -36,7 +36,7 @@ const AdminSidebar = () => {
                 <div className="text-center">
                     <Link to="/dashboard" style={{ textAlign: "left" }} className="btn fw-bold btn-warning my-2 w-75">
                         <div className='d-flex'>
-                            <span>
+                            <span>                  
                                 <FontAwesomeIcon style={{ height: "15px" }} className='px-2  w-100' icon={faUserCircle} />
                             </span>
                             <span>Admin
@@ -64,6 +64,7 @@ const AdminSidebar = () => {
                     <Link to="/sellerList" style={{ textAlign: "left" }} className="btn btn-primary my-2 w-75">
                         <div className='d-flex'>
                             <span>
+                            <FontAwesomeIcon icon="fa-solid fa-bars-filter" />
                                 <FontAwesomeIcon style={{ height: "15px" }} className='px-2  w-100' icon={faBars} />
                             </span>
                             <span>Seller List</span>
@@ -75,6 +76,7 @@ const AdminSidebar = () => {
                     <Link to="/orderList" style={{ textAlign: "left" }} className="btn btn-primary my-2 w-75">
                         <div className='d-flex'>
                             <span>
+                           
                                 <FontAwesomeIcon style={{ height: "15px" }} className='px-2  w-100' icon={faBars} />
                             </span>
                             <span>Order List</span>
