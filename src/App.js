@@ -67,7 +67,6 @@ import Medicine from './Components/ProductCategory/Medicine';
 import Supplement from './Components/ProductCategory/Supplement';
 
 
-import TestList from './Components/Admin/TestList'
 
 
 
@@ -113,7 +112,6 @@ const App = () => {
           {/* For Admin start*/}
           <Route path="/updateAdminProfile"><UpdateAdminProfile></UpdateAdminProfile> </Route>
           <Route path="/orderList"><OrderList></OrderList></Route>
-          <Route path="/abcde"><TestList></TestList></Route>
           <Route path="/productList"><ProductList></ProductList></Route>
           
 
