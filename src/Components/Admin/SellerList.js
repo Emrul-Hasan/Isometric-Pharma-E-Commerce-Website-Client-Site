@@ -122,6 +122,7 @@ const SellerList = () => {
                                         )
                                 }
                                 <Link className='btn btn-success btn-sm' to="/addSeller">Add Seller</Link>
+                            
                             </div>
                         </div>
                     </div>

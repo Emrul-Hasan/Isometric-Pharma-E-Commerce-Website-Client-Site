@@ -132,8 +132,9 @@ const ProductList = () => {
                                                         )
                                                     }
                                                 </table>
-
+                                                <a className="btn btn-sm btn-success" href="http://127.0.0.1:8000/productPieChart">All Product Chart</a>
                                             </div>
+                                            
                                         )
                                 }
 

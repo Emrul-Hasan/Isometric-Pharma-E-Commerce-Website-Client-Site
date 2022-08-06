@@ -70,6 +70,8 @@ import Supplement from './Components/ProductCategory/Supplement';
 
 
 
+
+
 // Authorization
 // var token = null;
 // if (localStorage.getItem('token')) {
@@ -113,6 +115,10 @@ const App = () => {
           <Route path="/updateAdminProfile"><UpdateAdminProfile></UpdateAdminProfile> </Route>
           <Route path="/orderList"><OrderList></OrderList></Route>
           <Route path="/productList"><ProductList></ProductList></Route>
+          
+
+    
+
           
 
           {/* seller  operation for admin*/}

@@ -96,11 +96,16 @@ const OrderList = () => {
                                                         )
                                                     }
                                                 </table>
+                                                <a className="btn btn-sm btn-success" href="http://127.0.0.1:8000/allOrderListStatusPieChart">Order Status Chart</a>
+
                                             </div>
+                                            
                                         )
+                                        
                                 }
 
                             </div>
+                            
                         </div>
                     </div>
                     :
