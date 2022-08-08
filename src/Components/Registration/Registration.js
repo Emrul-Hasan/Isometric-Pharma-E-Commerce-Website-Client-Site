@@ -167,6 +167,10 @@ const Registration = () => {
 
                                                     <div className="mb-4 d-flex justify-content-end">
                                                         <button type="submit" className="registration-button font-weight-bold">Submit</button>
+
+                                                        {/* Does not work */}
+                                                        {/* <a   href="http://127.0.0.1:8000/emailToVerify" type="submit">Email Verify</a> */}
+                       
                                                     </div>
                                                 </div>
                                             </div>
